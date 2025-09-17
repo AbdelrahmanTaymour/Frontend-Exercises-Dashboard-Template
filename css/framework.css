@@ -1,0 +1,328 @@
+:root{
+    --blue-color: #0075ff;
+    --blue-alt-color: #0d69d5;
+    --orange-color: #f59e0b;
+    --green-color: #22c55e;
+    --red-color: #f44336;
+    --grey-color: #888;
+}
+/*Start Box*/
+.d-flex{
+    display: flex;
+}
+.d-inline{
+    display: inline-flex;
+}
+.f-wrap{
+    flex-wrap: wrap;
+}
+.f-grow{
+    flex-grow: 1;
+}
+.align-center{
+    align-items: center;
+}
+.space-between{
+    justify-content: space-between;
+}
+.overflow-hidden{
+    overflow: hidden;
+}
+.d-grid{
+    display: grid;
+}
+.d-block{
+    display: block;
+}
+.gap-20{
+    gap: 20px;
+}
+
+@media (max-width: 767px) {
+    .block-mobile{
+        display: block;
+    }
+    .hide-mobile {
+        display: none;
+    }
+}
+/*End Box*/
+/* Start Padding + Margin */
+.p-10{
+    padding: 10px;
+}
+.p-15{
+    padding: 15px;
+}
+.p-20{
+    padding: 20px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pt-15{
+    padding-top: 15px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.pb-15{
+    padding-bottom: 15px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pl-15{
+    padding-left: 15px;
+}
+.m-0{
+    margin: 0;
+}
+.m-15{
+    margin: 15px;
+}
+.m-20{
+    margin: 20px;
+}
+.m-auto{
+    margin: auto;
+}
+.mt-0{
+    margin-top: 0;
+}
+.mt-5{
+    margin-top: 5px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.mt-25{
+    margin-top: 25px;
+}
+.mr-0{
+    margin-right: 0;
+}
+.mr-5{
+    margin-right: 5px;
+}
+.mr-10{
+    margin-right: 10px;
+}
+.mr-15{
+    margin-right: 15px;
+}
+.mb-0{
+    margin-bottom: 0;
+}
+.mb-5{
+    margin-bottom: 5px;
+}
+.mb-10 {
+    margin-bottom: 10px;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.mb-25{
+    margin-bottom: 25px;
+}
+.ml-5{
+    margin-left: 5px;
+}
+.ml-15{
+    margin-left: 15px;
+}
+.ml-20{
+    margin-left: 20px;
+}
+.ml-auto{
+    margin-left: auto;
+}
+/* End Padding + Margin */
+/* Start Width + Height */
+.w-full{
+    width: 100%;
+}
+.w-fit {
+    width: fit-content;
+}
+.w-40{
+    width: 40px;
+}
+.w-64{
+    width: 64px;
+}
+.w-100{
+    width: 100px;
+}
+.h-full{
+    height: 100%;
+}
+.h-40{
+    height: 40px;
+}
+.h-64{
+    height: 64px;
+}
+.h-100{
+    height: 100px;
+}
+/* End Width + Height */
+/*Start Color*/
+.bg-white {
+    background-color: white;
+}
+.bg-eee{
+    background-color: #EEE;
+}
+.bg-blue{
+    background-color: var(--blue-color);
+}
+.bg-orange{
+    background-color: var(--orange-color);
+}
+.bg-green{
+    background-color: var(--green-color);
+}
+.bg-red{
+    background-color: var(--red-color);
+}
+.c-white{
+    color: white;
+}
+.c-black{
+    color: black;
+}
+.c-blue {
+    color: var(--blue-color);
+}
+.c-orange {
+    color: var(--orange-color);
+}
+.c-green {
+    color: var(--green-color);
+}
+.c-grey{
+    color: var(--grey-color);
+}
+.c-red {
+    color: var(--red-color);
+}
+/*End Color*/
+/*Start Position*/
+.p-relative{
+    position: relative;
+}
+.p-absolute{
+    position: absolute;
+}
+/*End Position*/
+/* Start Font */
+.txt-c{
+    text-align: center;
+}
+.fs-13{
+    font-size: 13px;
+}
+.fs-14{
+    font-size: 14px;
+}
+.fs-15{
+    font-size: 15px;
+}
+.fs-16{
+    font-size: 16px;
+}
+.fs-25{
+    font-size: 25px;
+}
+.fw-bold{
+    font-weight: bold;
+}
+.fw-normal{
+    font-weight: normal;
+}
+@media (max-width: 767px) {
+    .txt-c-mobile{
+        text-align: center;
+    }
+}
+/* End Font */
+/*Start Border*/
+.b-none {
+    border: none;
+}
+.b-ccc{
+    border: 1px solid #CCC;
+}
+.b-eee{
+    border: 1px solid #EEE;
+}
+.bt-eee{
+    border-top: 1px solid #EEE;
+}
+.br-none {
+    border-right: none;
+}
+.br-eee{
+    border-right: 1px solid #EEE;
+}
+.bb-eee{
+    border-bottom: 1px solid #EEE;
+}
+.bl-eee{
+    border-left: 1px solid #EEE;
+}
+.b-frame-white{
+    border: 2px solid white;
+}
+.rad-6{
+    border-radius: 6px;
+}
+.rad-10{
+    border-radius: 10px;
+}
+.rad-half{
+    border-radius: 50%;
+}
+.rad-6006{
+    border-radius: 6px 0 0 6px;
+}
+.rad-0660{
+    border-radius: 0 6px 6px 0;
+}
+.main-transition{
+    transition: var(--main-transition);
+}
+/*End Border*/
+/* Start component*/
+.center-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.between-flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.btn-shape{
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+.btn-hover:hover{
+    background-color: var(--blue-alt-color);
+}
+/* End component*/
